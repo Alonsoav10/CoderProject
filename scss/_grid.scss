@@ -1,0 +1,72 @@
+.contenedor{
+	background-color: #b8c886;
+	display: grid;
+	grid-template-columns: 50vw 50vw;	
+	grid-template-areas: 
+	"nav nav" 
+	"main side" 
+	"footer footer";
+
+}
+#botonera{
+	grid-area: nav;
+}
+#presentacion{
+	grid-area: main;
+}
+#foto_fondo{
+	grid-area: side;
+}
+#footer{
+	grid-area: footer;
+}
+
+
+
+
+// contacto ------------------------------------------
+.contenedor-contacto{
+	display: grid;
+	grid-template-columns: 50vw 50vw;
+	grid-template-areas: 
+	"nav nav" 
+	"main side" 
+	"footer footer";
+
+}
+#botonera{
+	grid-area: nav;
+}
+#form__contact{
+	grid-area: main;
+}
+#foto_fondo{
+	grid-area: side;
+}
+#footer{
+	grid-area: footer;
+}
+
+
+// 404 ------------------------------------------
+.contenedor-404
+{
+	display: grid;
+	grid-template-columns: 100vw;
+	grid-template-rows:10vh 60vh 30vh;
+	grid-template-areas:
+	"nav"
+	"main"
+	"footer"
+}
+#botonera
+{
+	grid-area: nav;
+}
+#error404
+{
+	grid-area:main;
+}
+#footer{
+	grid-area: footer;
+}

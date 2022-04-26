@@ -1,0 +1,713 @@
+// ----   INDEX   --------------------------------------------------
+
+@media only screen and (max-width: 1024px)
+{
+	.contenedor
+	{
+		.hola
+		{
+			font-size: $textLg;
+		}
+		#presentacion
+		{
+			.saludo__inicial
+			{
+				font-size: 1em;
+				
+			}
+			.foto__nutricionista
+			{
+				top: 35%;
+				
+			}
+		}
+	}
+}
+@media only screen and (max-width: 920px)
+{
+	.contenedor
+	{
+		.hola
+		{
+			font-size: $textLg;
+		}
+		#presentacion
+		{
+			.saludo__inicial
+			{
+				font-size: 1em;
+				width: 380px;
+			}
+			.foto__nutricionista
+			{
+				top: 32%;
+				
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 834px)
+{
+
+	.contenedor{
+	background-color: #b8c886;
+	display: grid;
+	grid-template-columns: 100vw;	
+	grid-template-areas: 
+	"nav" 
+	"main"
+	"side" 
+	"footer";
+
+	}
+	#botonera{
+		grid-area: nav;
+	}
+	#presentacion{
+		grid-area: main;
+	}
+	#foto_fondo{
+		grid-area: side;
+	}
+	#footer{
+		grid-area: footer;
+	}
+
+	.contenedor
+	{
+		.hola
+		{
+			font-size: $textLg;
+		}
+		#presentacion
+		{
+			.saludo__inicial
+			{
+				text-align: center;
+				font-size: 1em;
+				
+			}
+			.foto__nutricionista
+			{
+				width: 35%;
+				top: 67%;
+				left: 32%;
+				
+			}
+		}
+		#foto_fondo
+		{
+			.fondo__principal
+			{
+				width: 100%;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 566px)
+{
+
+	.contenedor{
+	background-color: #b8c886;
+	display: grid;
+	grid-template-columns: 100vw;	
+	grid-template-areas: 
+	"nav" 
+	"main"
+	"side" 
+	"footer";
+
+	}
+	#botonera{
+		grid-area: nav;
+	}
+	#presentacion{
+		grid-area: main;
+	}
+	#foto_fondo{
+		grid-area: side;
+	}
+	#footer{
+		grid-area: footer;
+	}
+
+	.contenedor
+	{
+		.hola
+		{
+			font-size: $textLg;
+		}
+		#presentacion
+		{
+			.saludo__inicial
+			{
+				text-align: center;
+				font-size: 1em;
+				
+			}
+			.foto__nutricionista
+			{
+				width: 36%;
+				top: 68%;
+				left: 32%;
+				
+			}
+		}
+		#foto_fondo
+		{
+			.fondo__principal
+			{
+				width: 100%;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 400px)
+{
+
+	.contenedor{
+	background-color: #b8c886;
+	display: grid;
+	grid-template-columns: 100vw;	
+	grid-template-areas: 
+	"nav" 
+	"main"
+	"side" 
+	"footer";
+
+	}
+	#botonera{
+		grid-area: nav;
+	}
+	#presentacion{
+		grid-area: main;
+	}
+	#foto_fondo{
+		grid-area: side;
+	}
+	#footer{
+		grid-area: footer;
+	}
+
+	.contenedor
+	{
+		.hola
+		{
+			font-size: $textLg;
+		}
+		#presentacion
+		{
+			.saludo__inicial
+			{
+				text-align: center;
+				font-size: 1em;
+				
+			}
+			.foto__nutricionista
+			{
+				width: 50%;
+				top: 68%;
+				left: 25%;
+				
+			}
+		}
+		#foto_fondo
+		{
+			.fondo__principal
+			{
+				width: 100%;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 371px)
+{
+
+	.contenedor{
+	background-color: #b8c886;
+	display: grid;
+	grid-template-columns: 100vw;	
+	grid-template-areas: 
+	"nav" 
+	"main"
+	"side" 
+	"footer";
+
+	}
+	#botonera{
+		grid-area: nav;
+	}
+	#presentacion{
+		grid-area: main;
+	}
+	#foto_fondo{
+		grid-area: side;
+	}
+	#footer{
+		grid-area: footer;
+	}
+
+	.contenedor
+	{
+		.hola
+		{
+			font-size: $textLg;
+		}
+		#presentacion
+		{
+			.saludo__inicial
+			{
+				text-align: center;
+				font-size: 1em;
+				
+			}
+			.foto__nutricionista
+			{
+				width: 50%;
+				top: 70%;
+				left: 28%;
+				
+			}
+		}
+		#foto_fondo
+		{
+			.fondo__principal
+			{
+				width: 100%;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 348px)
+{
+
+	.contenedor{
+	background-color: #b8c886;
+	display: grid;
+	grid-template-columns: 100vw;	
+	grid-template-areas: 
+	"nav" 
+	"main"
+	"side" 
+	"footer";
+
+	}
+	#botonera{
+		grid-area: nav;
+	}
+	#presentacion{
+		grid-area: main;
+	}
+	#foto_fondo{
+		grid-area: side;
+	}
+	#footer{
+		grid-area: footer;
+	}
+
+	.contenedor
+	{
+		.hola
+		{
+			font-size: $textLg;
+		}
+		#presentacion
+		{
+			.saludo__inicial
+			{
+				text-align: center;
+				font-size: 1em;
+				
+			}
+			.foto__nutricionista
+			{
+				width: 50%;
+				top: 70%;
+				left: 28%;
+				
+			}
+		}
+		#foto_fondo
+		{
+			.fondo__principal
+			{
+				width: 100%;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 338px)
+{
+
+	.contenedor{
+	background-color: #b8c886;
+	display: grid;
+	grid-template-columns: 100vw;	
+	grid-template-areas: 
+	"nav" 
+	"main"
+	"side" 
+	"footer";
+
+	}
+	#botonera{
+		grid-area: nav;
+	}
+	#presentacion{
+		grid-area: main;
+	}
+	#foto_fondo{
+		grid-area: side;
+	}
+	#footer{
+		grid-area: footer;
+	}
+
+	.contenedor
+	{
+		.hola
+		{
+			font-size: $textLg;
+		}
+		#presentacion
+		{
+			.saludo__inicial
+			{
+				text-align: center;
+				font-size: 1em;
+				
+			}
+			.foto__nutricionista
+			{
+				width: 50%;
+				top: 74%;
+				left: 26%;
+				
+			}
+		}
+		#foto_fondo
+		{
+			.fondo__principal
+			{
+				width: 100%;
+			}
+		}
+	}
+}
+@media only screen and (max-width: 326px)
+{
+
+	.contenedor
+	{
+		.hola
+		{
+			font-size: $textLg;
+		}
+		#presentacion
+		{
+			.saludo__inicial
+			{
+				text-align: center;
+				font-size: 1em;
+				
+			}
+			.foto__nutricionista
+			{
+				width: 50%;
+				top: 74%;
+				left: 28%;
+				
+			}
+		}
+		#foto_fondo
+		{
+			.fondo__principal
+			{
+				width: 100%;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 320px)
+{
+
+	.contenedor
+	{
+		.hola
+		{
+			font-size: $textLg;
+		}
+		#presentacion
+		{
+			.saludo__inicial
+			{
+				text-align: center;
+				font-size: 1em;
+				
+			}
+			.foto__nutricionista
+			{
+				width: 50%;
+				top: 95%;
+				left: 28%;
+				
+			}
+		}
+		#foto_fondo
+		{
+			.fondo__principal
+			{
+				width: 100%;
+			}
+		}
+	}
+}
+
+
+
+// ----   ABOUT   --------------------------------------------------
+
+
+@media only screen and (max-width: 560px)
+{
+	.img-certificados
+	{
+		img
+		{
+			width: 50vh;
+		}
+	}
+}
+
+@media only screen and (max-width: 445px)
+{
+	.img-certificados
+	{
+		img
+		{
+			width: 30vh;
+		}
+	}
+}
+@media only screen and (max-width: 341px)
+{
+	.img-certificados
+	{
+		img
+		{
+			width: 25vh;
+		}
+	}
+}
+@media only screen and (max-width: 320px)
+{
+	.img-certificados
+	{
+		img 
+		{
+			width: 20vh;
+		}
+	}
+}
+
+// ----   CONTACTO   --------------------------------------------------
+
+@media only screen and (max-width: 1530px)
+{
+	.contenedor-contacto
+	{
+		display: grid;
+		grid-template-columns: 50vw 50vw;
+		grid-template-areas: 
+		"nav nav" 
+		"main side" 
+		"footer footer";
+
+	}
+	#botonera{
+		grid-area: nav;
+	}
+	#form__contact{
+		grid-area: main;
+	}
+	#foto_fondo{
+		grid-area: side;
+	}
+	#footer{
+		grid-area: footer;
+	}
+
+	.boton-contacto
+	{
+		width: 20vw;
+		border-color: #1f53c5;
+		padding: 12px;
+		margin: 16px 0;
+		font-size: 1.5em;
+		border-radius: 5px;
+		margin-right: 10px;
+
+		 &:hover
+		{
+		width: 20vw;
+		background-color: #637332;
+		border: none;
+		padding: 12px;
+		margin: 16px 0;
+		font-size: 1.5rem;
+		border-radius: 5px;
+		margin-right: 10px;
+		transition-duration: 0.8s;
+		color: #fff;
+		}
+	}
+
+}
+
+@media only screen and (max-width: 1477px)
+{
+	.contenedor-contacto
+	{
+		display: grid;
+		grid-template-columns: 50vw 50vw;
+		grid-template-areas: 
+		"nav nav" 
+		"main side" 
+		"footer footer";
+
+	}
+	#botonera{
+		grid-area: nav;
+	}
+	#form__contact{
+		grid-area: main;
+	}
+	#foto_fondo{
+		grid-area: side;
+	}
+	#footer{
+		grid-area: footer;
+	}
+
+	.boton-contacto
+	{
+		width: 20vw;
+		border-color: #1f53c5;
+		padding: 12px;
+		margin: 16px 0;
+		font-size: 1.4em;
+		border-radius: 5px;
+		margin-right: 8px;
+		cursor: pointer;
+
+		 &:hover
+		{
+		width: 20vw;
+		background-color: #637332;
+		border: none;
+		padding: 12px;
+		margin: 16px 0;
+		font-size: 1.4rem;
+		border-radius: 5px;
+		margin-right: 10px;
+		transition-duration: 0.8s;
+		color: #fff;
+		}
+	}
+
+}
+
+@media only screen and (max-width: 990px)
+{
+	.contenedor-contacto
+	{
+	display: grid;
+	grid-template-columns: 100vw;
+	grid-template-areas: 
+	"nav" 
+	"main" 
+	"side"
+	"footer";
+
+	}
+	#botonera{
+		grid-area: nav;
+	}
+	#form__contact{
+		grid-area: main;
+	}
+	#foto_fondo{
+		grid-area: side;
+	}
+	#footer{
+		grid-area: footer;
+	}
+
+
+}
+
+@media only screen and (max-width: 556px)
+{
+	.contenedor-contacto
+	{
+	display: grid;
+	grid-template-columns: 100vw;
+	grid-template-areas: 
+	"nav" 
+	"main" 
+	"side"
+	"footer";
+
+	}
+	#botonera{
+		grid-area: nav;
+	}
+	#form__contact{
+		grid-area: main;
+	}
+	#foto_fondo{
+		grid-area: side;
+	}
+	#footer{
+		grid-area: footer;
+	}
+
+	.boton-contacto
+	{
+		width: 20vw;
+		border-color: #1f53c5;
+		padding: 12px;
+		margin: 16px 0;
+		font-size: 1em;
+		border-radius: 5px;
+		margin-right: 8px;
+		cursor: pointer;
+
+		 &:hover
+		{
+		width: 20vw;
+		background-color: #637332;
+		border: none;
+		padding: 12px;
+		margin: 16px 0;
+		font-size: 1rem;
+		border-radius: 5px;
+		margin-right: 10px;
+		transition-duration: 0.8s;
+		color: #fff;
+		}
+	}
+}
+// ----   TESTIMONIOS   --------------------------------------------------
+
+
+
+
+

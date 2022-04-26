@@ -1,0 +1,9 @@
+.encabezado
+{
+	position: sticky;
+}
+
+.bg-light
+{
+	background-color: map-get($map:$paleta,$key:'uno');
+}

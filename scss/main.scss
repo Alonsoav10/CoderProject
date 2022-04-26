@@ -1,0 +1,22 @@
+$success: #061E0B;
+
+
+$theme-colors: (
+  "success":    $success,
+);
+
+
+// Imports
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "_reset";
+@import "_commons";
+@import "_fonts";
+@import "_grid";
+@import "_404";
+@import "_responsive";
+@import "_custom";
+@import "_navBar";
+@import "_content";
+
+@import "_footer";

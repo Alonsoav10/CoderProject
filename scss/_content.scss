@@ -1,0 +1,366 @@
+
+
+
+//  HOME
+
+.contenedor{
+	background:$mainColor;
+	font-family: $fontMain;
+	}
+
+.hola
+{
+	font-size: $textXL;
+	font-family: $fontSecondary;
+	letter-spacing: 0.15em;
+	top: 50px;
+}
+
+
+#presentacion 
+{		display: flex;
+		align-items: center;
+		justify-content: center;
+
+	.saludo__inicial
+	{
+		color: $secondaryColor;		
+		padding: 40px;		
+		
+	}
+	.foto__nutricionista
+	{
+	position: absolute;
+	left: 40%;
+	top: 45%;
+	width: 20%;
+	border-style: solid;
+	border-color: $mainColor;
+	border-width: 10px;
+	}
+}
+
+.parrafo__inicial
+{
+	width: 90%;
+}
+#foto_fondo
+{
+	.fondo__principal
+	{
+		width: $w-100;
+	}
+}
+
+
+// TESTIMONIO  ----------------------------------------
+
+.contenedor-testimonio
+{
+		background:$mainColor;
+		font-family: $fontMain;
+		.contenedor__test
+		{
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+		h5
+		{
+			color: #fff;
+			display: flex;
+			text-align: center;
+			font-weight: bold;
+		}
+		p
+		{
+			color: #fff;
+			font-size: 1em;
+		}
+		#card
+		{
+			width: 500px;
+		    height: 800px;
+		    background-color: #333;
+		    border-color: #061E0B;
+		    border-radius: 10px;
+		    outline: 1px solid rgba(255, 255, 255, 0.5);
+		    outline-offset: -8px;
+		    
+		    position: relative;
+		    overflow: hidden;
+		    margin: 30px;
+		}
+
+}
+
+
+
+//  CONTACTO ----------------------------------------------------
+
+.contenedor-contacto
+{
+	background: $mainColor;
+}
+#form__contact
+{
+	width: $w-100;	
+	display: $d-flex; 
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+
+}
+
+.form-datos
+{
+	padding: 100px;
+
+	p
+	{
+		font-size: 1.5em;
+		padding: 20px;
+		color: #fff;
+	}
+	.boton-contacto
+	{
+		width: 20vw;
+		border-color: #1f53c5;
+		padding: 12px;
+		margin: 16px 0;
+		font-size: 1.5em;
+		border-radius: 5px;
+		margin-right: 10px;
+
+		 &:hover
+		{
+		width: 20vw;
+		background-color: #637332;
+		border: none;
+		padding: 12px;
+		margin: 16px 0;
+		font-size: 1.5rem;
+		border-radius: 5px;
+		margin-right: 10px;
+		transition-duration: 0.8s;
+		color: #fff;
+		}
+	}
+}
+::placeholder
+{
+	color: #fff;
+}
+.controls
+{
+	width: $w-100;
+	background: $mainColor;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 16px;
+	border: 1px solid #1f53c5;
+	font-size: 1.6em;
+
+	&:hover
+	{
+	width: 100%;
+	background: #637332;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 16px;
+	border: 1px solid #1f53c5;
+	font-size: 1.6rem;
+
+	}
+}
+#foto_fondo
+{
+	.fondo__principal
+	{
+		height: $w-100;
+	}
+}
+
+//  ABOUT   -------------------------------------------------
+
+.contenedor-about
+{
+	background: $mainColor;
+	text-align: center;
+}
+
+.img-certificados
+{
+	display: $d-flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+	padding: 20px;
+
+	img
+	{
+		padding:10px;
+	}
+}
+
+#about-me
+{
+	p
+	{
+		font-size: 1.2em;
+		padding: 5px;
+		color: #fff;
+	}
+}
+
+//   RECETAS   ---------------------------------------------
+
+.contenedor-recetas
+{
+	background: $mainColor;
+
+}
+.titulo__recetas
+{
+	padding:20px;
+	text-align: center;
+	color: $secondaryColor;
+}
+
+.lista__recetas
+{
+	display: $d-flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 20px;
+	
+}
+
+.card
+{
+	width: 450px;
+	height: 500px;
+	background-color: #333;
+	border-color: $secondaryColor;	
+	border-radius: 10px;
+	outline: 1px solid rgba(255, 255,255, .5);
+	outline-offset: -8px;
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, .1);
+	position: relative;
+	overflow: hidden;
+	margin: 30px;
+
+
+	.card-image
+	{
+	&:hover
+		{
+			transform: scale(1.15);
+		}
+	}
+}
+
+.card-image
+{
+	position: absolute;
+	inset: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	opacity: .6;
+	transition: transform .75s;	
+}
+
+
+.card-title
+{
+	position: absolute;
+	left: 15px;
+	bottom: 15px;
+	font-size: 2em;
+	font-family: $fontSecondary;
+	color: #fff;
+	text-shadow: 0 0 1px rgba(0, 0, 0, .5);
+
+
+}
+
+//   PLANES    -----------------------------------------
+
+.contenido-planes
+{
+	display: $d-flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 5%;
+
+}
+
+.etiqueta-planes
+{
+	display: $d-flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	background-color: #fff;
+	width:auto;
+	padding: 10px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	text-decoration: none;
+	text-align: center;
+	border-radius: 5px;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+	transition: all 400ms ease;
+
+	&:hover
+	{
+		box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+	}
+
+	ul
+	{
+		li
+		{
+			list-style: none;
+			font-size: 1.5rem;
+			color: $secondaryColor;
+		}
+	}
+	a
+	{
+		text-decoration: none;
+	}
+	p
+	{
+		font-size: 2rem;
+		color: $secondaryColor;
+		padding: 15px;
+		font-weight: bold;
+	}
+	h3
+	{
+		font-family: $fontSecondary;
+		font-size: 3rem;
+		padding: 15px;
+		color: $secondaryColor;
+	}
+}
+
+//   404    -----------------------------------------
+
+
+
+
+// FOOTER
+
+#alignFooter
+{
+	text-align: center;
+}
+#footer .footer-top .footer-links ul li {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
